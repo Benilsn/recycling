@@ -1,15 +1,17 @@
-package br.com.reykon.recycle.controller;
+package br.com.reykon.recycle.adapter.controller;
 
+import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("/users")
+@Produces(MediaType.APPLICATION_JSON)
+@Consumes(MediaType.APPLICATION_JSON)
 public class UserController {
 
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
     public String get() {
         return "Hello world";
     }
