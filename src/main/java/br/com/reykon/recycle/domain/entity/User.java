@@ -2,7 +2,7 @@ package br.com.reykon.recycle.domain.entity;
 
 import jakarta.persistence.*;
 
-@Entity(name = "tb_usr")
+@Entity(name = "recyusrr")
 public class User {
 
     @Id
@@ -18,9 +18,9 @@ public class User {
     public Double wallet;
     public String photo;
 
-//    @OneToOne
-//    @JoinColumn(name = "address_id")
-//    public Address address;
+    @OneToOne
+    @JoinColumn(name = "address_id")
+    public Address address;
 
 
 }
