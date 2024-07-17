@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.com.reykon.recycle</groupId>
     <artifactId>recycling</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <compiler-plugin.version>3.13.0</compiler-plugin.version>
@@ -36,10 +36,6 @@
         <!--    WEB     -->
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-resteasy</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.quarkus</groupId>
             <artifactId>quarkus-arc</artifactId>
         </dependency>
 
@@ -58,10 +54,15 @@
         </dependency>
 
         <!--    TEMPLATE     -->
-    <!--        <dependency>-->
-    <!--            <groupId>io.quarkus</groupId>-->
-    <!--            <artifactId>quarkus-qute</artifactId>-->
-    <!--        </dependency>-->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-rest-qute</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.qute.web</groupId>
+            <artifactId>quarkus-qute-web</artifactId>
+            <version>3.0.1</version>
+        </dependency>
 
         <!--     TEST      -->
         <dependency>
