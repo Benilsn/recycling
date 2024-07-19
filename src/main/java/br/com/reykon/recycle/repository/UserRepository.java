@@ -1,6 +1,6 @@
-package br.com.reykon.recycle.domain.repository;
+package br.com.reykon.recycle.repository;
 
-import br.com.reykon.recycle.domain.entity.User;
+import br.com.reykon.recycle.entity.User;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 

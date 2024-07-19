@@ -1,4 +1,4 @@
-package br.com.reykon.recycle.domain.entity;
+package br.com.reykon.recycle.entity;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.Entity;

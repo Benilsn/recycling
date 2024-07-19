@@ -1,4 +1,4 @@
-package br.com.reykon.recycle.domain.entity;
+package br.com.reykon.recycle.entity;
 
 import jakarta.persistence.*;
 
@@ -21,6 +21,5 @@ public class User {
     @OneToOne
     @JoinColumn(name = "address_id")
     public Address address;
-
 
 }
