@@ -1,4 +1,4 @@
-package br.com.reykon.recycle.service;
+package br.com.reykon.recycle.domain.service;
 
 import java.util.Optional;
 

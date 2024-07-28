@@ -1,4 +1,4 @@
-package br.com.reykon.recycle.entity;
+package br.com.reykon.recycle.domain.entity;
 
 import jakarta.persistence.*;
 

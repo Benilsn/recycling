@@ -1,6 +1,6 @@
 package br.com.reykon.recycle.application.dto;
 
-import br.com.reykon.recycle.entity.Address;
+import br.com.reykon.recycle.domain.entity.Address;
 
 public class UserDto {
 

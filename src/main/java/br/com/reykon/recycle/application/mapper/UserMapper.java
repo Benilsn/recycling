@@ -1,7 +1,7 @@
 package br.com.reykon.recycle.application.mapper;
 
 import br.com.reykon.recycle.application.dto.UserDto;
-import br.com.reykon.recycle.entity.User;
+import br.com.reykon.recycle.domain.entity.User;
 import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
