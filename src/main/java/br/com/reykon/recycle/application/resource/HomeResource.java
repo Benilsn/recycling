@@ -9,13 +9,16 @@ public class HomeResource {
 
     @GET
     public TemplateInstance homePage() {
-        return Templates.home().data("name", "Test");
+        return Templates.home()
+                .data("pageTitle", "Home")
+                .data("name", "Test");
     }
 
     @GET
     @Path("/register")
     public TemplateInstance registerPage() {
-        return Templates.register();
+        return Templates.register()
+                .data("pageTitle", "Register");
     }
 
 }
